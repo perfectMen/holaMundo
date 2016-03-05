@@ -1,0 +1,46 @@
+mixin icon-links()
+	ul(
+		id="dropdown1" 
+		class="dropdown-content"
+	)
+		li
+			a(href="#!") one
+
+		li
+			a(href="#!") two
+
+		li
+			a(href="#!") Salir
+
+	nav.icon-links
+
+		div(class="nav-wrapper")
+			a(href="#!" class="brand-logo")
+				img(src="img/logo.png")
+				ul(class="right hide-on-med-and-down")
+					li
+						a(href="#")
+							img(src="img/icons/magnify/ic_magnify_black_18dp.png")
+
+					li(
+						class="menu"
+					)
+						a(href="#")
+							img(src="img/icons/view-grid/ic_view_grid_black_18dp.png")
+
+					li(
+						class="dropdown-button" 
+						href="#!" 
+						data-activates="dropdown1"
+					)
+						a(href="#")
+							img(src="img/icons/dots-vertical/ic_dots_vertical_black_18dp.png")
+
+
+
+
+
+
+
+
+	

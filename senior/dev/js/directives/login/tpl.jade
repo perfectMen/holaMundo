@@ -1,0 +1,32 @@
+div(class='row')
+	form(class='col s6 offset-s3' style='margin-top:40px; margin-bottom:30px')
+		div(class='row center-align')
+			img(src='img/logo.png')
+
+		h4(class="center-align" style='color:#2bbbad; margin-bottom:30px; font-size:24px') {{LoginController.acceso}}
+		div(class='row')
+			div(
+				class="input-field col s12"
+			)
+				input(id="input_text" type="text" length="10")
+				label(for="input_text") Nombre
+
+		div(class='row')
+			div(
+				class="input-field col s12"
+			)
+				input(
+					id="input_text" 
+					type="text" 
+					length="10"
+				)
+				label(for="input_text") Contraseña
+		div(
+			class='row center-align'
+		)
+			button(class="btn waves-effect waves-light") Submit
+				img(
+					src='img/icons/send/ic_send_white_24dp.png' 
+					style='width:22px;margin-left:15px'
+				)
+

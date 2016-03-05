@@ -1,0 +1,59 @@
+.active
+	background white
+	border-bottom 2px solid white
+	
+	a 
+		color #FF5722
+		text-decoration none 
+		
+.general
+	.nav-bar
+		background #424242
+		
+		.menu	
+			div
+				border-bottom 2px solid #FF5722
+				padding 10px
+				
+				a
+					color white
+					float right
+				
+				img
+					float right
+					margin-right 5px
+					padding-top 2px
+					width 15px
+					
+		.home
+			div
+				&:first-of-type
+					@extend .active
+					
+		
+		.profiles
+			div
+				&:nth-of-type(2)
+					@extend .active
+					
+		
+		.contacts
+			div
+				&:nth-of-type(3)
+					@extend .active
+			
+		
+		.about
+			div
+				&:nth-of-type(4)
+					@extend .active
+		
+		
+	
+				
+		
+		
+	
+
+			
+			

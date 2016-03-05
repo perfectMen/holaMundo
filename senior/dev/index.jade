@@ -1,0 +1,23 @@
+include _mixins/main
+
+<!DOCTYPE html>
+html(
+	lang="en"
+	ng-app='app'
+)
+	head
+		if base
+			base(href=base)
+			+head()
+
+	body(
+		ng-controller='mainController'
+	)
+
+		.general(class='container-fluid')
+			block html
+				+icon-links()
+				+h-images()
+				+footer()
+			
+		+scripts(scripts)
