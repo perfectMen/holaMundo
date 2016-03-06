@@ -13,6 +13,6 @@ const getComponent = (name, dir, nameFile) => {
 }
 
 module.exports = {
-	scripts: getComponent('commons/scripts/')
-
+	scripts: getComponent('commons/scripts/'),
+	promotion: getComponent('home/promocion/')
 }
