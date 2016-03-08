@@ -3,5 +3,7 @@ angular
 	'mainController',
 	'loginController',
 	'Hello',
-	'Login'
+	'Login',
+	'pruebaCtrl',
+	'Prueba'
 ])
